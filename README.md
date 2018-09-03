@@ -4,16 +4,27 @@ Price prediction
 In this project I am going to predict the price from different features including item_description.
 
 table description:
+
 Size of the DF: (118948, 8)
+
 train_id               int64
+
 name                  object
+
 item_condition_id      int64
+
 category_name         object
+
 brand_name            object
+
 price                float64
+
 shipping               int64
+
 item_description      object
+
 dtype: object
+
 
 I used NLTK library to edit the texts in a way can be used for extracting valuable words.
 I used TFIDF technic (term frequency–inverse document frequency) to find the importance of words, then choosed the most important words as the featurrs.
