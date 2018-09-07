@@ -27,7 +27,7 @@ dtype: object
 
 
 I used NLTK library to edit the texts in a way can be used for extracting valuable words.
-I used TFIDF technic (term frequency–inverse document frequency) to find the importance of words, then choosed the most important words as the featurrs.
+I used TFIDF technique (term frequency–inverse document frequency) to find the importance of words, then choosed the most important words as the featurrs.
 
 After finding the valuable words in item_description, and making dummie variables from other object columns, a linear regression model is trained.
 category_name is splited to 3 different columns and then dummy variables is created for all of them.
